@@ -20,7 +20,8 @@ int main() {
             if (arr[i] == arr[j]) {
                 printf("%d ", arr[i]);
                 found = 1;
-                break;  // Avoid printing same duplicate multiple times
+                break; 
+            
             }
         }
     }
