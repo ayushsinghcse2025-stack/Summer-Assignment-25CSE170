@@ -7,7 +7,6 @@ int main() {
 
     printf("=== Student Record Management System ===\n\n");
 
-    // Input student details
     printf("Enter Roll Number: ");
     scanf("%d", &rollNo);
 
@@ -17,13 +16,11 @@ int main() {
     printf("Enter Marks: ");
     scanf("%f", &marks);
 
-    // Display student details
     printf("\n=== Student Record ===\n");
     printf("Roll Number : %d\n", rollNo);
     printf("Name        : %s\n", name);
     printf("Marks       : %.2f\n", marks);
 
-    // Grade calculation
     if (marks >= 90)
         printf("Grade       : A\n");
     else if (marks >= 75)
